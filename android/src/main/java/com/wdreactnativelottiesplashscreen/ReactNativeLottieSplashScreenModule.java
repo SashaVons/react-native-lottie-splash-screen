@@ -22,13 +22,8 @@ public class ReactNativeLottieSplashScreenModule extends ReactContextBaseJavaMod
         return NAME;
     }
 
-
-    // Example method
-    // See https://reactnative.dev/docs/native-modules-android
     @ReactMethod
-    public void multiply(int a, int b, Promise promise) {
-        promise.resolve(a * b);
+    public void hide() {
+      ReactNativeLottieSplashScreen.hide(getCurrentActivity());
     }
-
-    public static native int nativeMultiply(int a, int b);
 }

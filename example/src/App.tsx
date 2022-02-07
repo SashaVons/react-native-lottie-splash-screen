@@ -1,13 +1,13 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from '@wd/react-native-lottie-splash-screen';
+import SplashScreen from '@wd/react-native-lottie-splash-screen';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
+  const [result, setResult] = React.useState<number | undefined>(0);
 
   React.useEffect(() => {
-    multiply(3, 7).then(setResult);
+    setTimeout(() => SplashScreen.hide(), 1000);
   }, []);
 
   return (
