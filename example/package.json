@@ -1,6 +1,6 @@
 {
-  "name": "@wd/react-native-lottie-splash-screen-example",
-  "description": "Example app for @wd/react-native-lottie-splash-screen",
+  "name": "@wd_company/react-native-lottie-splash-screen-example",
+  "description": "Example app for @wd_company/react-native-lottie-splash-screen",
   "version": "0.0.1",
   "private": true,
   "scripts": {

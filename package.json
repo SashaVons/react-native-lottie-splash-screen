@@ -1,5 +1,5 @@
 {
-  "name": "@wd/react-native-lottie-splash-screen",
+  "name": "@wd_company/react-native-lottie-splash-screen",
   "version": "0.1.0",
   "description": "Add Lottie animation to splash screen",
   "main": "lib/commonjs/index",

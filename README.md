@@ -1,17 +1,17 @@
-# @wd/react-native-lottie-splash-screen
+# @wd_company/react-native-lottie-splash-screen
 
 Add Lottie animation to splash screen
 
 ## Installation
 
 ```sh
-npm install @wd/react-native-lottie-splash-screen
+npm install @wd_company/react-native-lottie-splash-screen
 ```
 
 ## Usage
 
 ```js
-import { multiply } from "@wd/react-native-lottie-splash-screen";
+import { multiply } from '@wd_company/react-native-lottie-splash-screen';
 
 // ...
 

@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@wd/react-native-lottie-splash-screen": ["./src/index"]
+      "@wd_company/react-native-lottie-splash-screen": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
