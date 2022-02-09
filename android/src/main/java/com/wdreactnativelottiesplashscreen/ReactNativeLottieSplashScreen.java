@@ -110,7 +110,7 @@ public class ReactNativeLottieSplashScreen {
             isDestroyed = _activity.isDestroyed();
           }
 
-          if (!_activity.isFinishing() && !isDestroyed && isAnimationFinished) {
+          if (!_activity.isFinishing() && !isDestroyed) {
             mSplashDialog.dismiss();
             mSplashDialog = null;
           }
